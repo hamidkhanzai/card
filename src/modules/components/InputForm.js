@@ -14,13 +14,13 @@ export default (props) => (
     </div>
     <div class="form-group">
       <label for="exampleInputName2">Price</label>
-      <input type="text"
+      <input type="number"
         onChange={props.setPrice}
         class="form-control" id="price" placeholder="12.00 € "/>
     </div>
     <div class="form-group">
       <label for="exampleInputName2">Tax</label>
-      <input type="text"
+      <input type="number"
         onChange={props.setTax}
         class="form-control" id="tax" placeholder="19 %"/>
     </div>
